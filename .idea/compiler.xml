@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="backend-test-dec-2021-master" />
         <module name="backend-test-dec-2021" />
-        <module name="BackendJava" />
       </profile>
     </annotationProcessing>
   </component>
