@@ -8,10 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="backend-test-dec-2021-master" />
         <module name="backend-test-dec-2021" />
-<<<<<<< HEAD
-        <module name="BackendJava" />
-=======
->>>>>>> HomeWork1
       </profile>
     </annotationProcessing>
   </component>

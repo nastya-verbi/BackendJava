@@ -6,30 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendJava" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/BackendJava" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/BackendJava" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/main/java/com/geekbrains/backend/test/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/java/com/geekbrains/backend/test/HelloTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/resources/com/geekbrains/backend/test/HelloTest/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/resources/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest/Picture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/resources/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/resources/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/resources/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest/uninstall.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-test-dec-2021-master/src/test/resources/com/geekbrains/backend/test/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +66,22 @@
       <recent name="com.geekbrains.backend.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest">
+  <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest (1)">
+    <configuration name="ImgurApiFunctionalTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021-master" />
       <extension name="coverage">
@@ -104,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.deleteImageTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021-master" />
+    <configuration name="ImgurApiFunctionalTest.getAccountBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
@@ -114,14 +107,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="deleteImageTestNew" />
+      <option name="METHOD_NAME" value="getAccountBase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.getImageTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021-master" />
+    <configuration name="ImgurApiFunctionalTest.getImageTestNew (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
@@ -136,26 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.postImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="postImageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImgurApiFunctionalTest.postTextTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021-master" />
+    <configuration name="ImgurApiFunctionalTest.postImageTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
@@ -164,7 +139,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="postTextTestNew" />
+      <option name="METHOD_NAME" value="postImageTestNew" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImgurApiFunctionalTest (1)" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.getImageTestNew (1)" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTestNew" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.postTextTestNew" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteImageTestNew" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.getImageTestNew" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
       </list>
     </recent_temporary>
   </component>
