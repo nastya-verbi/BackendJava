@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="HomeWork4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiAbstractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/imgur/ImgurApiFunctionalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021-master" />
+    <configuration name="ImgurApiFunctionalTest.deleteImageTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
@@ -92,7 +92,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="deleteImageTestNew" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ImgurApiFunctionalTest (1)" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest.deleteImageTestNew" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.getImageTestNew (1)" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTestNew" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,9 +169,32 @@
       <updated>1638984204059</updated>
       <workItem from="1638984205449" duration="6562000" />
     </task>
+    <task id="LOCAL-00001" summary="HomeWork4">
+      <created>1639829559543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639829559543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWork4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork4" />
   </component>
 </project>

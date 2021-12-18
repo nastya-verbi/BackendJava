@@ -33,9 +33,9 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
         String userName = "redcappy";
 
         ResponseSpecification resp = new ResponseSpecBuilder()
-                .build()
-                .statusCode(200)
-                .body("data.id", is(157917785));
+                .expectStatusCode(200)
+                .expectBody("data.id", is(157917785))
+                .build();
 
         given()
                 .spec(requestSpecification)
@@ -87,15 +87,14 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
                 .all();
     }
 
-
     @Test
     @Order(4)
     void deleteImageTestNew() {
 
         ResponseSpecification resp_del = new ResponseSpecBuilder()
-                .build()
-                .statusCode(200)
-                .body("success", is(true));
+                .expectStatusCode(200)
+                .expectBody("success", is(true))
+                .build();
 
         given()
                 .spec(requestSpecification)
@@ -114,8 +113,8 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
     void postTextTest() {
 
         ResponseSpecification resp_code1 = new ResponseSpecBuilder()
-                .build()
-                .statusCode(400);
+                .expectStatusCode(400)
+                .build();
 
         given()
                 .spec(requestSpecification)
@@ -135,8 +134,8 @@ public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
     void postExeTest() {
 
         ResponseSpecification resp_code2 = new ResponseSpecBuilder()
-                .build()
-                .statusCode(417);
+                .expectStatusCode(417)
+                .build();
 
         given()
                 .spec(requestSpecification)

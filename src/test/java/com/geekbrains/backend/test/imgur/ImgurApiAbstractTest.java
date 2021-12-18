@@ -36,11 +36,11 @@ public class ImgurApiAbstractTest extends FunctionalTest {
 
     static ResponseSpecification resp_1() {
         return new ResponseSpecBuilder()
-                .build()
-                .statusCode(200)
-                .body("data.size", is(139228))
-                .body("data.type", is("image/jpeg"))
-                .body("data.name", is("Image"))
-                .body("data.title", is("Beautiful"));
+                .expectStatusCode(200)
+                .expectBody("data.size", is(139228))
+                .expectBody("data.type", is("image/jpeg"))
+                .expectBody("data.name", is("Image"))
+                .expectBody("data.title", is("Beautiful"))
+                .build();
     }
 }
