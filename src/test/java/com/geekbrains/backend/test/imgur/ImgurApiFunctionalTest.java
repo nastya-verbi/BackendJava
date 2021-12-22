@@ -1,21 +1,24 @@
 package com.geekbrains.backend.test.imgur;
 
+
 import java.util.Properties;
 
-import com.geekbrains.backend.test.FunctionalTest;
 import io.restassured.RestAssured;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.specification.*;
 import org.junit.jupiter.api.*;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class ImgurApiFunctionalTest extends FunctionalTest {
+public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
 
 
     private static Properties properties;
     private static String TOKEN;
     private static String image_ID = "";
+
 
     @BeforeAll
     static void beforeAll() throws Exception {
@@ -28,13 +31,18 @@ public class ImgurApiFunctionalTest extends FunctionalTest {
     @Order(1)
     void getAccountBase() {
         String userName = "redcappy";
+
+        ResponseSpecification resp = new ResponseSpecBuilder()
+                .expectStatusCode(200)
+                .expectBody("data.id", is(157917785))
+                .build();
+
         given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .log()
                 .all()
                 .expect()
-                .body("data.id", is(157917785))
+                .spec(resp)
                 .log()
                 .all()
                 .when()
@@ -43,42 +51,16 @@ public class ImgurApiFunctionalTest extends FunctionalTest {
 
     @Test
     @Order(2)
-    void postImageTest() {
-        given()
-                .auth()
-                .oauth2(TOKEN)
-                .multiPart("image", getFileResource("img.jpg"))
-                .formParam("name", "Picture")
-                .formParam("title", "The best picture!")
-                .log()
-                .all()
-                .expect()
-                .body("data.size", is(46314))
-                .body("data.type", is("image/jpeg"))
-                .body("data.name", is("Picture"))
-                .body("data.title", is("The best picture!"))
-                .log()
-                .all()
-                .when()
-                .post("upload");
-    }
-
-    @Test
-    @Order(3)
     void postImageTestNew() {
         image_ID = given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .multiPart("image", getFileResource("Picture.jpg"))
                 .formParam("name", "Image")
                 .formParam("title", "Beautiful")
                 .log()
                 .all()
                 .expect()
-                .body("data.size", is(139228))
-                .body("data.type", is("image/jpeg"))
-                .body("data.name", is("Image"))
-                .body("data.title", is("Beautiful"))
+                .spec(resp_1())
                 .log()
                 .all()
                 .when()
@@ -91,75 +73,80 @@ public class ImgurApiFunctionalTest extends FunctionalTest {
     }
 
     @Test
-    @Order(4)
+    @Order(3)
     void getImageTestNew() {
         given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .log()
                 .all()
                 .when()
                 .get("image/" + image_ID)
                 .then()
-                .body("data.size", is(139228))
-                .body("data.type", is("image/jpeg"))
-                .body("data.name", is("Image"))
-                .body("data.title", is("Beautiful"))
+                .spec(resp_1())
                 .log()
                 .all();
     }
 
-
     @Test
-    @Order(5)
+    @Order(4)
     void deleteImageTestNew() {
+
+        ResponseSpecification resp_del = new ResponseSpecBuilder()
+                .expectStatusCode(200)
+                .expectBody("success", is(true))
+                .build();
+
         given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .log()
                 .all()
                 .when()
                 .delete("image/" + image_ID)
                 .then()
-                .statusCode(200)
-                .body("success", is(true))
+                .spec(resp_del)
                 .log()
                 .all();
     }
 
     @Test
-    @Order(6)
+    @Order(5)
     void postTextTest() {
+
+        ResponseSpecification resp_code1 = new ResponseSpecBuilder()
+                .expectStatusCode(400)
+                .build();
+
         given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .multiPart("text", getFileResource("text.txt"))
                 .formParam("name", "Text")
                 .formParam("title", "TXT")
                 .log()
                 .all()
                 .expect()
-                .statusCode(400)
+                .spec(resp_code1)
                 .log()
                 .all();
     }
 
     @Test
-    @Order(7)
+    @Order(6)
     void postExeTest() {
+
+        ResponseSpecification resp_code2 = new ResponseSpecBuilder()
+                .expectStatusCode(417)
+                .build();
+
         given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .multiPart("exe", getFileResource("uninstall.exe"))
                 .formParam("name", "Exe")
                 .formParam("title", "EXE")
                 .log()
                 .all()
                 .expect()
-                .statusCode(417)
+                .spec(resp_code2)
                 .log()
                 .all();
     }
-
-    // TODO: 08.12.2021 Домашка протестировать через RA минимум 5 различных end point-ов
 }
