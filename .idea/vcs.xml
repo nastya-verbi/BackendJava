@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../../.." vcs="Arc" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Backend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/BackendJava" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/backend-test-dec-2021-master/BackendJava" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/backend-test-dec-2021-master/src/BackendJava" vcs="Git" />
-    <mapping directory="$USER_HOME$/arcadia" vcs="Arc" />
   </component>
 </project>
