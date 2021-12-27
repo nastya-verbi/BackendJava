@@ -15,6 +15,12 @@
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
                 <version>${mybatis.plugin.version}</version>
                 <executions>
+                    <execution>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
