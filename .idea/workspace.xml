@@ -5,23 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73ac6f6d-44c4-4643-aff2-abc18013480b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/CreateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/DeleteProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/GetCategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/GetProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/GetProductById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/miniMarket/PutProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image Upload.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/db/migration/V1__init_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/MiniMarketApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/controllers/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/controllers/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/dto/CategoryDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/dto/ProductDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/entites/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/entites/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/exceptions/ExceptionsControllerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/exceptions/MarketError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/exceptions/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/repositories/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/repositories/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/ru/geekbrains/mini/market/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/classes/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-market/target/test-classes/ru/geekbrains/mini/market/MiniMarketApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
