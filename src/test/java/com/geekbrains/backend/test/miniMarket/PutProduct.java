@@ -8,7 +8,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
 import retrofit2.Response;
 
-@DisplayName("Изменение продукта")
+@DisplayName("Change product")
 public class PutProduct {
     static MiniMarketApi miniMarketApi;
     Faker faker = new Faker();
@@ -36,7 +36,7 @@ public class PutProduct {
 
     @SneakyThrows
     @Test
-    @DisplayName("Изменение товара")
+    @DisplayName("Change tovar")
     void putProduct() {
         //act
         Response<Product> response = miniMarketApi.putProduct(product).execute();

@@ -11,16 +11,16 @@ import java.util.Properties;
 public abstract class FunctionalTest {
 
 
-    public static Properties readProperties() throws Exception {
-        Properties properties = new Properties();
-        Files.readAllLines(Path.of(
-                        FunctionalTest.class.getResource("test.properties").toURI()))
-                .forEach(str -> {
-                    String[] props = str.split("=");
-                    properties.setProperty(props[0].trim(), props[1].trim());
-                });
-        return properties;
-    }
+//    public static Properties readProperties() throws Exception {
+//        Properties properties = new Properties();
+//        Files.readAllLines(Path.of(
+//                        FunctionalTest.class.getResource("test.properties").toURI()))
+//                .forEach(str -> {
+//                    String[] props = str.split("=");
+//                    properties.setProperty(props[0].trim(), props[1].trim());
+//                });
+//        return properties;
+//    }
 
     public String getStringResource(String name) throws IOException {
         String dir = getClass().getSimpleName();
