@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73ac6f6d-44c4-4643-aff2-abc18013480b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <recent name="com.geekbrains.backend.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest">
+  <component name="RunManager" selected="Application.TestDb">
     <configuration name="MiniMarketApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.mini.market.MiniMarketApplication" />
       <module name="mini-market" />
@@ -82,32 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.db.TestDb" />
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.*" />
+          <option name="PATTERN" value="com.geekbrains.backend.test.db.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.CreateProduct" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.miniMarket.GetCategoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,20 +126,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.geekbrains.backend.test.miniMarket in backend-test-dec-2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.miniMarket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.miniMarket" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.GetCategoryTest" />
-      <item itemvalue="JUnit.CreateProduct" />
+      <item itemvalue="JUnit.ImgurApiFunctionalTest" />
+      <item itemvalue="JUnit.com.geekbrains.backend.test.miniMarket in backend-test-dec-2021" />
       <item itemvalue="JUnit.MiniMarketApplicationTests" />
       <item itemvalue="Application.MiniMarketApplication" />
-      <item itemvalue="JUnit.ImgurApiFunctionalTest" />
+      <item itemvalue="Application.TestDb" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
-        <item itemvalue="JUnit.GetCategoryTest" />
-        <item itemvalue="JUnit.CreateProduct" />
+        <item itemvalue="Application.TestDb" />
+        <item itemvalue="JUnit.com.geekbrains.backend.test.miniMarket in backend-test-dec-2021" />
         <item itemvalue="Application.MiniMarketApplication" />
         <item itemvalue="JUnit.MiniMarketApplicationTests" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,1 @@
+{"uuid":"ae4a380e-3b6f-4ddf-9c46-3af8d9d48cb6","historyId":"239d6c4221db3a5ea96bc7e42c270c38","labels":[{"name":"suite","value":"Вызов одного продукта"},{"name":"package","value":"com.geekbrains.backend.test.miniMarket.GetProductById"}],"name":"Получить продукт по id","status":"passed","stage":"finished","start":1640636818712,"stop":1640636818841}
