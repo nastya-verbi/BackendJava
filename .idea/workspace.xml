@@ -69,7 +69,7 @@
       <recent name="com.geekbrains.backend.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniMarketApplication">
+  <component name="RunManager" selected="JUnit.com.geekbrains.backend.test.miniMarket in backend-test-dec-2021">
     <configuration name="MiniMarketApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.mini.market.MiniMarketApplication" />
       <module name="mini-market" />
@@ -149,9 +149,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.geekbrains.backend.test.miniMarket in backend-test-dec-2021" />
         <item itemvalue="Application.MiniMarketApplication" />
         <item itemvalue="Application.TestDb" />
-        <item itemvalue="JUnit.com.geekbrains.backend.test.miniMarket in backend-test-dec-2021" />
         <item itemvalue="JUnit.MiniMarketApplicationTests" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
       </list>
