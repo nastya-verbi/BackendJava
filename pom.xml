@@ -149,12 +149,8 @@
             <version>1.5.4</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-java-annotations -->
-        <dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-java-annotations</artifactId>
-            <version>1.5.4</version>
-        </dependency>
+   
+
         <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-report-data -->
         <dependency>
             <groupId>ru.yandex.qatools.allure</groupId>
