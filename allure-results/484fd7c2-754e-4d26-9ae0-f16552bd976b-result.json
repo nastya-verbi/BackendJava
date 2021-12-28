@@ -1,0 +1,1 @@
+{"uuid":"484fd7c2-754e-4d26-9ae0-f16552bd976b","historyId":"fcea4f3ebc9709cc3d1b8dd81ded391c","labels":[{"name":"suite","value":"Тесты функциональности класса Hello"},{"name":"package","value":"com.geekbrains.backend.test.HelloTest"}],"name":"Тест на ошибку при делении на 0","status":"passed","stage":"finished","start":1640723955175,"stop":1640723955193}

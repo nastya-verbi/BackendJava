@@ -1,0 +1,1 @@
+{"uuid":"3bc78510-29b6-4234-b5da-78563f98a569","historyId":"2563247bdd2a8a1b683f852f29123384","labels":[{"name":"suite","value":"Тесты функциональности класса Hello"},{"name":"package","value":"com.geekbrains.backend.test.HelloTest"}],"name":"Тест классическое деление без ошибок","status":"passed","stage":"finished","start":1640724093528,"stop":1640724093530}

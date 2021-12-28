@@ -1,0 +1,1 @@
+{"uuid":"25cd0240-f73f-40ae-b812-fa1b49f0a497","historyId":"c3197b42ca24b907ab1cb91b86637e5","labels":[{"name":"suite","value":"Вызов категории товаров"},{"name":"package","value":"com.geekbrains.backend.test.miniMarket.GetCategoryTest"}],"name":"Проверка несуществующей категории","status":"passed","stage":"finished","start":1640723824054,"stop":1640723824409}

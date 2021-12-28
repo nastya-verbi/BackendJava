@@ -1,0 +1,1 @@
+{"uuid":"89461b83-ca3d-46bc-91a6-3342321bb917","historyId":"b22cc2cb16732b291ac28df06ac16a1","labels":[{"name":"suite","value":"com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest"},{"name":"package","value":"com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest"}],"name":"postExeTest()","status":"passed","stage":"finished","start":1640723962205,"stop":1640723962208}

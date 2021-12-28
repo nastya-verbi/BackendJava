@@ -1,0 +1,1 @@
+{"uuid":"5968840b-5825-4766-a181-d6069c3c5c0e","historyId":"84a135a447a98d25d39d91055855a5fc","labels":[{"name":"suite","value":"Вызов категории товаров"},{"name":"package","value":"GetCategoryTest"}],"name":"Проверка несуществующей категории","status":"passed","stage":"finished","start":1640724100862,"stop":1640724100907}

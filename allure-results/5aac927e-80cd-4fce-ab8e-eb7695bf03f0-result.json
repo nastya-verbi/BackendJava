@@ -1,0 +1,1 @@
+{"uuid":"5aac927e-80cd-4fce-ab8e-eb7695bf03f0","historyId":"92c1b8415e03be28fbe9827d0ed40ffb","labels":[{"name":"suite","value":"Тесты функциональности класса Hello"},{"name":"package","value":"com.geekbrains.backend.test.HelloTest"}],"name":"Тест 1: 1 + 2 = 3","status":"passed","stage":"finished","start":1640723816935,"stop":1640723816954}

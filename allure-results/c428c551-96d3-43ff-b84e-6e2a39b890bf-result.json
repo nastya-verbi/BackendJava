@@ -1,0 +1,1 @@
+{"uuid":"c428c551-96d3-43ff-b84e-6e2a39b890bf","historyId":"34410583cb87b0f26ae803ab02f178fd","labels":[{"name":"suite","value":"Вызов полного списка продуктов"},{"name":"package","value":"com.geekbrains.backend.test.miniMarket.GetProduct"}],"name":"Вернуть все товары в списке","status":"passed","stage":"finished","start":1640724124762,"stop":1640724124781}
